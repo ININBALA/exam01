@@ -17,12 +17,12 @@ int main()
     uLCD.rectangle(40, 40, 50, 50, 0XFFFFFF);
     int flag = 0;
     float k = 0;
-    flaot time;
+    float time;
 
     while(1){
-        if(flag == ){
+        if(flag == 0){
             if(time <= 0.1){
-                PWM1 = 0
+                PWM1 = 0;
                 wait(0.001);
                 PWM1 = k;
                 wait(0.001);
@@ -37,7 +37,7 @@ int main()
         }
         else{
             if(time <= 0.1){
-                PWM1 = 0
+                PWM1 = 0;
                 wait(0.001);
                 PWM1 = k;
                 wait(0.001);
@@ -50,10 +50,6 @@ int main()
                 k = k - 0.1;
             }
         }
-
-
-        }
-
     }    
 }
 
